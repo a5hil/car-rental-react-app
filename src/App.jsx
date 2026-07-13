@@ -3,7 +3,7 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Components/Home'
 import AddCar from './Components/AddCar'
-// import ViewCars from './Components/ViewCars'
+import ViewCars from './Components/ViewCars'
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/add-car' element={<AddCar />}></Route>
-          {/* <Route path='/view-cars' element={<ViewCars />}></Route> */}
+          <Route path='/view-cars' element={<ViewCars />}></Route>
         </Routes>
       </BrowserRouter>
     </>
